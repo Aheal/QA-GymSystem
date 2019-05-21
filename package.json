@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest && node_modules/.bin/nightwatch",
     "test2": "node_modules/.bin/nightwatch"
   },
   "repository": {
