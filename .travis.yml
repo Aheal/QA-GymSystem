@@ -4,3 +4,5 @@ nodejs:
 cache:
   directories:
     - "node_modules"
+addons:
+    chrome: stable
