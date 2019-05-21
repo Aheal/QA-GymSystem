@@ -40,7 +40,7 @@ $(document).ready(function(){
         if(response === 'failure')
             $("#notification").removeClass("hide");
         else 
-            window.location.href="http://www.google.com";
+            window.location.href="http://localhost:3000/members";
     }
   
   });
