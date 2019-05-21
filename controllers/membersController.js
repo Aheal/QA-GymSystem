@@ -16,4 +16,4 @@ module.exports = function(app){
 
     });
     app.delete('/members', function(req,res){});
-};
+}
