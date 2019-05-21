@@ -100,7 +100,7 @@
             </div> 
             <div class="row">
                 <% for(var i=0; i < members.length; i++){ %> 
-                    <div class="col-md-12 member-container">
+                    <div id="<%=members[i].name%>" value="<%=members[i].name%>" class="col-md-12 member-container">
                         <div class="row">
                             <div class="col-md-1 offset-md-1">
                                 <p><%= members[i].id %></p>
