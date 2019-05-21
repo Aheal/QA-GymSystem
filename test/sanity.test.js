@@ -8,6 +8,7 @@ describe('noNumbers', () => {
 });
 describe('noLetters', () => {
     it('should return a number with out letters in it' , () => {
+        const result = sanity.noLetters('Alex9')
         expect(result).toBe('9');
     });
 });  
