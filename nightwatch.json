@@ -10,7 +10,11 @@
     "test_settings" : {
       "default" : {
         "desiredCapabilities": {
-          "browserName": "chrome"
+          "browserName": "chrome",
+          "chromeOptions" : {
+            "args" : ["--no-sandbox", "--headless", "--disable-gpu"]
+          },
+          "acceptSslCerts": true
         }
       }
     }
