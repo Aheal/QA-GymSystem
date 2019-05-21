@@ -18,8 +18,10 @@
   "homepage": "https://github.com/Aheal/QA-GymSystem#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "chromedriver": "^74.0.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "nightwatch": "^1.1.10"
   }
 }
