@@ -1,6 +1,11 @@
 language: node_js
 nodejs:
   - "10.15.3"
+before_script:
+  - npm install
+script:
+  - node app.js
+  - npm test
 cache:
   directories:
     - "node_modules"
