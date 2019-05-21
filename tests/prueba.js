@@ -1,20 +1,6 @@
 const chromedriver = require('chromedriver');
 
 module.exports = {
-  before: function(done) {
-    chromedriver.start();
-
-    done();
-  },
-
-  after: function(done) {
-    chromedriver.stop();
-
-    done();
-  }
-};
-
-module.exports = {
     'Demo test Google' : function (browser) {
       browser
         .url('https://www.google.com')
